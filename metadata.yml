@@ -2,12 +2,13 @@ Identifier: eos80k1
 Slug: bioactivity-similarity-index
 Status: Ready
 Title: Bioactivity Similarity Index
-Description: Encodes a molecule as 64 values read from the hidden layer of the Bioactivity
-  Similarity Index, a network Schottlender and colleagues trained on ChEMBL to judge
-  whether two compounds bind the same or a related protein family. Their starting
-  point was that 60% of similarly bioactive ligand pairs sit below a Tanimoto coefficient
-  of 0.30 and so escape fingerprint comparison. Ersilia serves the cross-family BSI-Large
-  weights as a featuriser, so these numbers are a by-product of a pairwise classifier.
+Description: Encodes a molecule as 64 values read from the hidden layer of the 
+  Bioactivity Similarity Index, a network Schottlender and colleagues trained on
+  ChEMBL to judge whether two compounds bind the same or a related protein 
+  family. Their starting point was that 60% of similarly bioactive ligand pairs 
+  sit below a Tanimoto coefficient of 0.30 and so escape fingerprint comparison.
+  Ersilia serves the cross-family BSI-Large weights as a featuriser, so these 
+  numbers are a by-product of a pairwise classifier.
 Deployment:
   - Local
 Source: Local
@@ -21,8 +22,8 @@ Output:
   - Value
 Output Dimension: 64
 Output Consistency: Fixed
-Interpretation: 64 features placing the molecule in a space organised by bioactivity
-  rather than structure.
+Interpretation: 64 features placing the molecule in a space organised by 
+  bioactivity rather than structure.
 Tag:
   - Embedding
   - Descriptor
@@ -38,7 +39,7 @@ License: MIT
 Contributor: Marina18
 Incorporation Date: '2026-03-03'
 Last Packaging Date: '2026-04-22'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80k1.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos80k1
 Docker Architecture: AMD64
