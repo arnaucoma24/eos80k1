@@ -43,6 +43,7 @@ Release: v1.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80k1.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos80k1
 Docker Architecture: AMD64
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos80k1_v1.sif
 Model Size: 3.0
 Environment Size: 1666.0
 Image Size: 1724.56
