@@ -2,7 +2,8 @@
 
 Encodes a molecule as 64 values read from the hidden layer of the Bioactivity Similarity Index, a network Schottlender and colleagues trained on ChEMBL to judge whether two compounds bind the same or a related protein family. Their starting point was that 60% of similarly bioactive ligand pairs sit below a Tanimoto coefficient of 0.30 and so escape fingerprint comparison. Ersilia serves the cross-family BSI-Large weights as a featuriser, so these numbers are a by-product of a pairwise classifier.
 
-This model was incorporated on 2026-03-03.Last packaged on 2026-04-22.
+This model was incorporated on 2026-03-03.
+Last packaged on 2026-04-22.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 64 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos80k1](https://hub.docker.com/r/ersiliaos/eos80k1)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80k1.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos80k1.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos80k1_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos80k1_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `3`
